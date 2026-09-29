@@ -108,13 +108,35 @@ namespace Advanced_01
 
 
         //Q13
-//        public static T GetDefault<T>()
+        //        public static T GetDefault<T>()
+        //        {
+        //            return default(T);
+        //        }
+        //    }
+        //}
+
+
+
+        //Q14
+//        public class SafeList<T>
 //        {
-//            return default(T);
+//            private List<T> items = new List<T>();
+
+//            public void Add(T item)
+//            {
+//                items.Add(item);
+//            }
+
+//            public T Get(int index)
+//            {
+//                if (index < 0 || index >= items.Count)
+//                    return default(T);
+
+//                return items[index];
+//            }
 //        }
 //    }
 //}
-
 
 
 
