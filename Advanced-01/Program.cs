@@ -148,12 +148,28 @@ namespace Advanced_01
 
 
         //Q16
-//        public interface IConsumer<in T>
-//        {
-//            void Consume(T item);
-//        }
-//    }
-//}
+        //        public interface IConsumer<in T>
+        //        {
+        //            void Consume(T item);
+        //        }
+        //    }
+        //}
+
+
+
+
+       // Q17
+//            What is the difference between covariance and contravariance?
+
+//Covariance(out) :
+//- Used for output.
+//- Allows a more derived type to be assigned to a less derived type.
+//- Returns values of type T.
+
+//Contravariance(in):
+//- Used for input.
+//- Allows a less derived type to be assigned to a more derived type.
+//- Accepts values of type T.
 
 
 
