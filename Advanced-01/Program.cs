@@ -93,17 +93,36 @@ namespace Advanced_01
 
 
         //Q12
-//        public class Container<T> where T : class, IComparable<T>, new()
-//        {
-//            public T Value { get; set; }
+        //        public class Container<T> where T : class, IComparable<T>, new()
+        //        {
+        //            public T Value { get; set; }
 
-//            public Container()
-//            {
-//                Value = new T();
-//            }
+        //            public Container()
+        //            {
+        //                Value = new T();
+        //            }
+        //        }
+        //    }
+        //}
+
+
+
+        //Q13
+//        public static T GetDefault<T>()
+//        {
+//            return default(T);
 //        }
 //    }
 //}
+
+
+
+
+
+
+
+
+
 
 //Q3
 //public class Pair<TKey, TValue>
