@@ -187,16 +187,74 @@ namespace Advanced_01
 
         //Q19
 
-//        public class Base<T>
-//        {
-//            public T Value { get; set; }
-//        }
+        //        public class Base<T>
+        //        {
+        //            public T Value { get; set; }
+        //        }
 
-//        public class Derived : Base<int>
+        //        public class Derived : Base<int>
+        //        {
+        //        }
+        //    }
+        //}
+
+
+
+
+        //Q20
+//        public class Cache<TKey, TValue> where TKey : notnull
 //        {
+//            private class CacheItem
+//            {
+//                public TValue Value { get; set; }
+//                public DateTime Expiration { get; set; }
+//            }
+
+//            private Dictionary<TKey, CacheItem> items = new Dictionary<TKey, CacheItem>();
+
+//            public void Add(TKey key, TValue value, TimeSpan expiration)
+//            {
+//                items[key] = new CacheItem
+//                {
+//                    Value = value,
+//                    Expiration = DateTime.Now.Add(expiration)
+//                };
+//            }
+
+//            public TValue Get(TKey key)
+//            {
+//                if (Contains(key))
+//                    return items[key].Value;
+
+//                return default(TValue);
+//            }
+
+//            public void Remove(TKey key)
+//            {
+//                items.Remove(key);
+//            }
+
+//            public bool Contains(TKey key)
+//            {
+//                if (!items.ContainsKey(key))
+//                    return false;
+
+//                if (DateTime.Now >= items[key].Expiration)
+//                {
+//                    items.Remove(key);
+//                    return false;
+//                }
+
+//                return true;
+//            }
 //        }
 //    }
 //}
+
+
+
+
+
 
 
 
