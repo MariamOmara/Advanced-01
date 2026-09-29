@@ -12,8 +12,12 @@ namespace Advanced_01
     }
 }
 
-
-
+//Q3
+//public class Pair<TKey, TValue>
+//{
+//    public TKey Key { get; set; }
+//    public TValue Value { get; set; }
+//}
 
 
 //  Q2
