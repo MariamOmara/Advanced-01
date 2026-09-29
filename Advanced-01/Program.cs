@@ -5,12 +5,25 @@ namespace Advanced_01
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        //Q4
+//public static void Swap<T>(ref T a, ref T b)
+//        {
+//            T temp = a;
+//            a = b;
+//            b = temp;
+//        }
     }
-}
+    }
+
+
+
+
+
+
+
+
+
+
 
 //Q3
 //public class Pair<TKey, TValue>
