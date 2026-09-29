@@ -139,9 +139,18 @@ namespace Advanced_01
         //}
 
         //Q15
-//        public interface IProducer<out T>
+        //        public interface IProducer<out T>
+        //        {
+        //            T Get();
+        //        }
+        //    }
+        //}
+
+
+        //Q16
+//        public interface IConsumer<in T>
 //        {
-//            T Get();
+//            void Consume(T item);
 //        }
 //    }
 //}
