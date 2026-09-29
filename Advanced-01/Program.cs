@@ -118,26 +118,33 @@ namespace Advanced_01
 
 
         //Q14
-//        public class SafeList<T>
+        //        public class SafeList<T>
+        //        {
+        //            private List<T> items = new List<T>();
+
+        //            public void Add(T item)
+        //            {
+        //                items.Add(item);
+        //            }
+
+        //            public T Get(int index)
+        //            {
+        //                if (index < 0 || index >= items.Count)
+        //                    return default(T);
+
+        //                return items[index];
+        //            }
+        //        }
+        //    }
+        //}
+
+        //Q15
+//        public interface IProducer<out T>
 //        {
-//            private List<T> items = new List<T>();
-
-//            public void Add(T item)
-//            {
-//                items.Add(item);
-//            }
-
-//            public T Get(int index)
-//            {
-//                if (index < 0 || index >= items.Count)
-//                    return default(T);
-
-//                return items[index];
-//            }
+//            T Get();
 //        }
 //    }
 //}
-
 
 
 
