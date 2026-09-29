@@ -63,22 +63,33 @@ namespace Advanced_01
 
 
         //Q10
-//        public interface IPrintable
+        //        public interface IPrintable
+        //        {
+        //            void Print();
+        //        }
+
+        //        public class Container<T> where T : IPrintable
+        //        {
+        //            public void Display(T item)
+        //            {
+        //                item.Print();
+        //            }
+        //        }
+        //    }
+        //}
+
+
+        //Q11
+//        public class Animal
 //        {
-//            void Print();
 //        }
 
-//        public class Container<T> where T : IPrintable
+//        public class Container<T> where T : Animal
 //        {
-//            public void Display(T item)
-//            {
-//                item.Print();
-//            }
+//            public T Value { get; set; }
 //        }
 //    }
 //}
-
-
 
 
 
