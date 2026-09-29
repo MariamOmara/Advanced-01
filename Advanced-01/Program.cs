@@ -14,6 +14,26 @@ namespace Advanced_01
 
 
 
+
+
+//  Q2
+//public class Container<T>
+//{
+//    private T item;
+
+//    public void Add(T value)
+//    {
+//        item = value;
+//    }
+
+//    public T Get()
+//    {
+//        return item;
+//    }
+//}
+
+
+
 //q1 نظري
 
 //A Generic Class is a class that can work with different data types using a type parameter such as T, without needing to create a separate class for each data type.
