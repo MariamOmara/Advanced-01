@@ -173,17 +173,44 @@ namespace Advanced_01
 
 
         //Q18
-//        public class Container<T>
-//        {
-//            public static int Count = 0;
+        //        public class Container<T>
+        //        {
+        //            public static int Count = 0;
 
-//            public Container()
-//            {
-//                Count++;
-//            }
+        //            public Container()
+        //            {
+        //                Count++;
+        //            }
+        //        }
+        //    }
+
+
+        //Q19
+
+//        public class Base<T>
+//        {
+//            public T Value { get; set; }
+//        }
+
+//        public class Derived : Base<int>
+//        {
 //        }
 //    }
 //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
