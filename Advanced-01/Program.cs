@@ -14,13 +14,23 @@ namespace Advanced_01
         //        }
 
         //Q5
-    //    public static T FindMax<T>(T a, T b) where T : IComparable<T>
-    //    {
-    //        return a.CompareTo(b) > 0 ? a : b;
-    //    }
-    //}
-    //}
+        //    public static T FindMax<T>(T a, T b) where T : IComparable<T>
+        //    {
+        //        return a.CompareTo(b) > 0 ? a : b;
+        //    }
+        //}
+        //}
 
+        //Q6
+//        public interface IRepository<T>
+//        {
+//            void Add(T entity);
+//            T GetById(int id);
+//            void Update(T entity);
+//            void Delete(int id);
+//        }
+//    }
+//}
 
 
 
