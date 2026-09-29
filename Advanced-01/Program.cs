@@ -158,22 +158,32 @@ namespace Advanced_01
 
 
 
-       // Q17
-//            What is the difference between covariance and contravariance?
+        // Q17
+        //            What is the difference between covariance and contravariance?
 
-//Covariance(out) :
-//- Used for output.
-//- Allows a more derived type to be assigned to a less derived type.
-//- Returns values of type T.
+        //Covariance(out) :
+        //- Used for output.
+        //- Allows a more derived type to be assigned to a less derived type.
+        //- Returns values of type T.
 
-//Contravariance(in):
-//- Used for input.
-//- Allows a less derived type to be assigned to a more derived type.
-//- Accepts values of type T.
-
-
+        //Contravariance(in):
+        //- Used for input.
+        //- Allows a less derived type to be assigned to a more derived type.
+        //- Accepts values of type T.
 
 
+        //Q18
+//        public class Container<T>
+//        {
+//            public static int Count = 0;
+
+//            public Container()
+//            {
+//                Count++;
+//            }
+//        }
+//    }
+//}
 
 
 
