@@ -43,9 +43,20 @@ namespace Advanced_01
 
 
         //Q8
-//        public class Container<T> where T : class
+        //        public class Container<T> where T : class
+        //        {
+        //            public T Value { get; set; }
+        //        }
+        //    }
+        //}
+
+        //Q9
+//        public class Container<T> where T : new()
 //        {
-//            public T Value { get; set; }
+//            public T Create()
+//            {
+//                return new T();
+//            }
 //        }
 //    }
 //}
