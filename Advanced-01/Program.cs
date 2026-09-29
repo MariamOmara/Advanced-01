@@ -80,19 +80,30 @@ namespace Advanced_01
 
 
         //Q11
-//        public class Animal
-//        {
-//        }
+        //        public class Animal
+        //        {
+        //        }
 
-//        public class Container<T> where T : Animal
+        //        public class Container<T> where T : Animal
+        //        {
+        //            public T Value { get; set; }
+        //        }
+        //    }
+        //}
+
+
+        //Q12
+//        public class Container<T> where T : class, IComparable<T>, new()
 //        {
 //            public T Value { get; set; }
+
+//            public Container()
+//            {
+//                Value = new T();
+//            }
 //        }
 //    }
 //}
-
-
-
 
 //Q3
 //public class Pair<TKey, TValue>
