@@ -51,17 +51,32 @@ namespace Advanced_01
         //}
 
         //Q9
-//        public class Container<T> where T : new()
+        //        public class Container<T> where T : new()
+        //        {
+        //            public T Create()
+        //            {
+        //                return new T();
+        //            }
+        //        }
+        //    }
+        //}
+
+
+        //Q10
+//        public interface IPrintable
 //        {
-//            public T Create()
+//            void Print();
+//        }
+
+//        public class Container<T> where T : IPrintable
+//        {
+//            public void Display(T item)
 //            {
-//                return new T();
+//                item.Print();
 //            }
 //        }
 //    }
 //}
-
-
 
 
 
