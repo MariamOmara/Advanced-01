@@ -22,12 +22,21 @@ namespace Advanced_01
         //}
 
         //Q6
-//        public interface IRepository<T>
+        //        public interface IRepository<T>
+        //        {
+        //            void Add(T entity);
+        //            T GetById(int id);
+        //            void Update(T entity);
+        //            void Delete(int id);
+        //        }
+        //    }
+        //}
+
+
+        //Q7
+//        public class Container<T> where T : struct
 //        {
-//            void Add(T entity);
-//            T GetById(int id);
-//            void Update(T entity);
-//            void Delete(int id);
+//            public T Value { get; set; }
 //        }
 //    }
 //}
