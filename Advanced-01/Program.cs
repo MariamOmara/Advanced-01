@@ -34,14 +34,21 @@ namespace Advanced_01
 
 
         //Q7
-//        public class Container<T> where T : struct
+        //        public class Container<T> where T : struct
+        //        {
+        //            public T Value { get; set; }
+        //        }
+        //    }
+        //}
+
+
+        //Q8
+//        public class Container<T> where T : class
 //        {
 //            public T Value { get; set; }
 //        }
 //    }
 //}
-
-
 
 
 
